@@ -1,0 +1,55 @@
+{
+  "upload_type": "software",
+  "title": "Analysis code for: Incremental value of large language model-extracted discharge-summary flags for antimicrobial resistance prediction",
+  "version": "1.0",
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Puvvada, Virinchi",
+      "affiliation": "Department of Data Science and Business Systems, SRM Institute of Science and Technology, Chengalpattu, Tamil Nadu, India"
+    },
+    {
+      "name": "T S, Kishore",
+      "affiliation": "Department of Data Science and Business Systems, SRM Institute of Science and Technology, Chengalpattu, Tamil Nadu, India"
+    },
+    {
+      "name": "Sadiqbasha, Mohammed Fayaz",
+      "affiliation": "Department of Pharmacy Practice, Faculty of Medicine and Health Sciences, SRM Medical College Hospital & Research Centre, SRM Institute of Science and Technology, Chengalpattu, Tamil Nadu, India"
+    },
+    {
+      "name": "Murugadoss, Hariharan",
+      "affiliation": "Division of Medical Research, Faculty of Medicine and Health Sciences, SRM Medical College Hospital & Research Centre, SRM Institute of Science and Technology, Chengalpattu, Tamil Nadu, India"
+    },
+    {
+      "name": "Andavar, Marina",
+      "affiliation": "Department of Pharmacy Practice, Faculty of Medicine and Health Sciences, SRM Medical College Hospital & Research Centre, SRM Institute of Science and Technology, Chengalpattu, Tamil Nadu, India"
+    },
+    {
+      "name": "Harikumar Lathakumari, Rahul",
+      "affiliation": "Department of Microbiology, Faculty of Medicine and Health Sciences, SRM Medical College Hospital & Research Centre, SRM Institute of Science and Technology, Chengalpattu, Tamil Nadu, India"
+    },
+    {
+      "name": "C, Prabhu",
+      "affiliation": "Department of Pharmaceutics, Apollo College of Pharmacy, Sriperumbudur, Kanchipuram, Tamil Nadu, India"
+    },
+    {
+      "name": "Thangavel Mahalingam, Vijayakumar",
+      "affiliation": "Department of Pharmacy Practice, Faculty of Medicine and Health Sciences, SRM Medical College Hospital & Research Centre, SRM Institute of Science and Technology, Chengalpattu, Tamil Nadu, India"
+    },
+    {
+      "name": "Kakithakara Vajravelu, Leela",
+      "affiliation": "Department of Microbiology, Faculty of Medicine and Health Sciences, SRM Medical College Hospital & Research Centre, SRM Institute of Science and Technology, Chengalpattu, Tamil Nadu, India"
+    }
+  ],
+  "description": "<p>Python code accompanying the manuscript \"Incremental value of large language model-extracted discharge-summary flags for antimicrobial resistance prediction: a retrospective cohort study with temporal validation in an Indian tertiary-care hospital\" (submitted to BMC Medical Informatics and Decision Making).</p><p>The scripts cover de-identification, cohort construction and labelling of MRSA, ESBL and CRE, structured feature engineering, rule-based and large language model (Claude Sonnet 5) extraction of 13 clinical flags from discharge summaries, physician-validation sampling and scoring, model development (logistic regression, random forest, XGBoost) with a calendar-ordered, patient-exclusive temporal split, patient-cluster bootstrap comparisons with multiplicity correction, recalibration, decision curve analysis, SHAP, subgroup, decomposition and sensitivity analyses, data-quality checks, and generation of all tables and figures.</p><p>Patient-level data are not included; see the README for the expected inputs and run order.</p>",
+  "keywords": [
+    "antimicrobial resistance",
+    "large language models",
+    "clinical natural language processing",
+    "prediction model",
+    "temporal validation",
+    "India"
+  ]
+}
