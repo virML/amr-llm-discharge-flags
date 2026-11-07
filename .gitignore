@@ -1,0 +1,13 @@
+# Never commit patient-level data or outputs derived from it
+data/
+paper/
+tables/
+figures/
+*.parquet
+*.csv
+*.xlsx
+*.pkl
+*.json
+__pycache__/
+.DS_Store
+!.zenodo.json
